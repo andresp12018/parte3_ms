@@ -33,7 +33,7 @@ spec:
           # Variables de entorno para conectar a parte1_ms
           env:
             - name: PARTE1_URL
-              value: "http://parte1-ms-service:8000"
+              value: "http://parte1-ms-service.andresp1-dev.svc.cluster.local:8000"
           # Health checks - simples y tolerantes
           readinessProbe:
             httpGet:
